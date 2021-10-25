@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300);
 
 body {
-  margin: 0;
   text-align: center;
   background-image:url(./images/background-img.jpg);
   background-size: cover;
@@ -11,7 +10,17 @@ body {
   font-weight: 300;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: #efece4;
+  color: #faf9f6;
+}
+
+h2 {
+  font-size: 12pt;
+  font-weight: 100;
+}
+
+
+img {
+  border-radius: 1000px;
 }
 
 a {
@@ -20,12 +29,12 @@ a {
 }
 
 a:hover {
-  color: #eabfb9;
+  color: #8f4f69;
 }
 
 .nav-item {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .nav-link {
@@ -59,7 +68,7 @@ span:after {
 }
 
 span:hover:before {
-  background: #eabfb9;
+  background: #8f4f69;
   width: 100%;
   transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
@@ -91,21 +100,33 @@ span:hover:after {
 }
 
 .grid .project {
-    min-height: 10vw;
-    min-width: 10vw;
     margin: 10px;
     padding: 20px 20px;
-    background-color: #eabfb9;
+    background-color: #8f4f69;
     opacity: 80%;
-    border-radius: 2px;
+    border-radius: 20px;
     box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
 }
 
 .project:hover {
-  color: #000000;
+  color: #8f4f69;
   background-color: #efece4;
   transform: scale(1.01);
   transition: .35s;
+}
+
+.card {
+  text-align: center;
+  grid-template-columns: auto auto;
+  margin: 10px;
+  padding: 20px 20px;
+  background-color: #8f4f69;
+  opacity: 80%;
+  border-radius: 20px;
+}
+
+.contact-info a:hover {
+  color: #000000;
 }
 
 ul {
