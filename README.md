@@ -1,4 +1,4 @@
-# HW20 React Portfolio Update API
+# HW20 React Portfolio Update
 
 ## Description
 Updated student portfolio using React.
