@@ -3,7 +3,6 @@
 body {
   margin: 0;
   text-align: center;
-  display: table;
   background-image:url(./images/background-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,18 +14,6 @@ body {
   color: #fff;
 }
 
-.avatar-bio {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-
 a {
   color: #faf9f6;
   text-decoration: none;
@@ -36,20 +23,13 @@ a:hover {
   color: #eabfb9;
 }
 
-nav {
+.nav-item {
   text-align: center;
-  padding-top: 500px;
+  padding-top: 50px;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  padding: 0 20px;
+.nav-link {
+  margin: 35px;
 }
 
 span {
@@ -90,115 +70,72 @@ span:hover:after {
   transition: 0s;
 }
 
-/* BREAK HERE */
+.navbar-container {
+  display: inline-block;
+  list-style-type: none;
+}
+
 .project:hover {
-  transform: scale(1.02);
+  color: #000000;
+  transform: scale(.95);
+  transition-property: opacity, left;
+  transition-duration: 3s, 5s, 2s, 1s;
 }
 
 .grid .project {
-  min-height: 10vw;
-  margin: 10px;
-  /* padding: 40px 10px; */
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+    min-height: 10vw;
+    min-width: 10vw;
+    margin: 10px;
+    padding: 20px 20px;
+    background-color: #eabfb9;
+    opacity: 85%;
+    border-radius: 2px;
+    box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+
 }
-  
-  .header  {
-      display: inline-block;
-      padding: 20px;
-      width: 100%;
-      background-color: black;
-      color: whitesmoke;
-      position: fixed;
-      left: 0;
-      top: 0;
-      right: 0;
-      z-index: 5;
-  }
-  .header .container {
-      display: flex;
-  }
-  .myname {
-      font-weight: bold;
-  }
-  ul {
+
+ul {
       display: flex;
       margin: 0;
       text-align: center;
   }
-  li {
+  
+li {
       list-style-type:none;
       padding-left: 5px;
       padding-right: 20px;
-  
   }
 
-  section, .contact {
-      padding: 6%;
+section, .contact {
+      padding: 4% 6%;
   }
-  .container h1, footer h2 {
+
+.container h1, footer h2 {
       font-size: 3em;
   }
-  .portfolio {
+.portfolio {
       background-color: #eee;
   }
-  .portfolio .container {
+
+.portfolio .container {
       display: flex;
       flex-direction: column;
-      
-  }
-  .grid {
-      display: grid;
-      grid-template-columns: 8ch auto;
   }
 
-  .grid a {
+.grid {
+      text-align: center;
+      display: grid;
+      grid-template-columns: auto auto auto;
+  }
+
+.grid a {
       text-decoration: none;
-      color: black;
-  }
-  .project:hover {
-      transform: scale(1.02);
-  }
-  .project svg {
-      height: 5vw;
-      width: 5vw;
-  }
-  .grid .project {
-      min-height: 10vw;
-      border: 1px solid white;
-      margin: 10px;
-      padding: 40px 10px;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
-  
-  }
-  .about {
-      margin-top: 58px;
-  }
-  .about h2 {
-      font-size: 3.5em;
-  }
-  .about h4 {
-      font-size: 1.2em;
-      font-weight: 500;
-  }
-  .about img {
-      width: 20vw;
-      height: 20vw;
-  }
-  footer h3, h4 {
-      font-weight: 500;
+      color: #fff;
   }
   
   @media (max-width: 768px) {
       .about {
           margin-top: 100px;
-      }
-  
-      .myname {
-          display: none;
       }
   
       header ul {
