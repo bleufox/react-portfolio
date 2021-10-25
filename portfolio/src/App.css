@@ -115,10 +115,26 @@ span:hover:after {
   flex-direction: column;
 }
 
-.grid {
+.contact-grid {
   text-align: center;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
+}
+
+.contact-grid .contact-project {
+    margin: 10px;
+    padding: 20px 20px;
+    background-color: #8f4f69;
+    opacity: 80%;
+    border-radius: 20px;
+    box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+}
+
+
+.grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .grid .project {
@@ -150,7 +166,7 @@ span:hover:after {
 
 .contact-container {
   text-align: center;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   min-height: 100%;
   margin: 10px;
   padding: 20px 20px;
