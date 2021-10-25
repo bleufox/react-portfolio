@@ -118,7 +118,7 @@ span:hover:after {
 .grid {
   text-align: center;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
 }
 
 .grid .project {
