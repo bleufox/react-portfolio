@@ -32,10 +32,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #8f4f69;
-}
-
 footer {
   padding: 25px;
   position: absolute;
@@ -130,6 +126,12 @@ span:hover:after {
     box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
 }
 
+.contact-project:hover {
+  color: #000000;
+  background-color: #efece4;
+  transform: scale(1.01);
+  transition: .35s;
+}
 
 .grid {
   text-align: center;
@@ -147,7 +149,7 @@ span:hover:after {
 }
 
 .project:hover {
-  color: #8f4f69;
+  color: #000000;
   background-color: #efece4;
   transform: scale(1.01);
   transition: .35s;
@@ -173,10 +175,6 @@ span:hover:after {
   background-color: #8f4f69;
   opacity: 80%;
   border-radius: 20px;
-}
-
-.contact-info a:hover {
-  color: #000000;
 }
 
 ul {
