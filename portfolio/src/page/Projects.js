@@ -5,9 +5,6 @@ function Projects () {
         <React.Fragment>
             <section id="portfolio" className="projects">
                 <div className="container">
-                    <div>
-                        <h1>Portfolio</h1>
-                    </div>
                     <div className="grid">
                         <a href="https://gibsona475.github.io/random-password/" target="_blank" rel="noreferrer">
 
