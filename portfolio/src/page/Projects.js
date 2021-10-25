@@ -16,7 +16,6 @@ function Projects() {
                                 <h3>Piano on the Go!</h3>
                             </div>
                         </a>
-
                         <a href="https://gibsona475.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
                             <div class="project">
                                 <h3>
@@ -25,7 +24,6 @@ function Projects() {
                                 </h3>
                             </div>
                         </a>
-
                         <a href="https://www.canva.com/design/DAEN1jAJqSg/jTxJa3Q8JYvuq1z2B2lNAQ/view?utm_content=DAEN1jAJqSg&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank" rel="noreferrer">
                             <div class="project">
                                 <h3>
@@ -34,7 +32,6 @@ function Projects() {
                                 </h3>
                             </div>
                         </a>
-
                         <a href="https://www.linkedin.com/in/anthony-gibson-aaa7aa157/" target="_blank" rel="noreferrer">
                             <div class="project">
                                 <h3>
@@ -43,7 +40,6 @@ function Projects() {
                                 </h3>
                             </div>
                         </a>
-
                         <a href="https://github.com/gibsona475" target="_blank" rel="noreferrer">
                             <div class="project">
                                 <h3>

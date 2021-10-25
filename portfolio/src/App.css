@@ -11,7 +11,7 @@ body {
   font-weight: 300;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: #fff;
+  color: #efece4;
 }
 
 a {
@@ -45,7 +45,7 @@ span:before, span:after {
   height: 1px;
   top: 50%;
   margin-top: -0.5px;
-  background: #fff;
+  background: #efece4;
 }
 
 span:before {
@@ -54,7 +54,7 @@ span:before {
 
 span:after {
   right: 2.5px;
-  background: #fff;
+  background: #efece4;
   transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
@@ -75,11 +75,19 @@ span:hover:after {
   list-style-type: none;
 }
 
-.project:hover {
-  color: #000000;
-  transform: scale(.95);
-  transition-property: opacity, left;
-  transition-duration: 3s, 5s, 2s, 1s;
+.portfolio {
+  background-color: #eee;
+}
+
+.portfolio .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .grid .project {
@@ -88,10 +96,16 @@ span:hover:after {
     margin: 10px;
     padding: 20px 20px;
     background-color: #eabfb9;
-    opacity: 85%;
+    opacity: 80%;
     border-radius: 2px;
     box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+}
 
+.project:hover {
+  color: #000000;
+  background-color: #efece4;
+  transform: scale(1.01);
+  transition: .35s;
 }
 
 ul {
@@ -110,29 +124,6 @@ section, .contact {
       padding: 4% 6%;
   }
 
-.container h1, footer h2 {
-      font-size: 3em;
-  }
-.portfolio {
-      background-color: #eee;
-  }
-
-.portfolio .container {
-      display: flex;
-      flex-direction: column;
-  }
-
-.grid {
-      text-align: center;
-      display: grid;
-      grid-template-columns: auto auto auto;
-  }
-
-.grid a {
-      text-decoration: none;
-      color: #fff;
-  }
-  
   @media (max-width: 768px) {
       .about {
           margin-top: 100px;
