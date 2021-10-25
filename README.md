@@ -35,8 +35,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Technologies Used
 * React, Javascript, HTML, CSS
 
-## Screenshots
-![Homepage](/src/images/piano-screenshot.png)
+## Screenshot
+![Homepage](portfolio/src/images/homepage.png)
 
 ## Repository
 * GitHub Repo: https://github.com/bleufox/react-portfolio
